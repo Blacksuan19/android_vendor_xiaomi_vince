@@ -95,34 +95,12 @@ special_mode_mask values:
       <A3Preview>ov12a10_sunny_vince_zsl_preview_dw9763</A3Preview>
       <A3Video>ov12a10_sunny_vince_zsl_video_dw9763</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="0" special_mode_mask="HHT MODE">
-      <ISPPreview>ov12a10_sunny_vince_snapshot</ISPPreview>
-      <ISPSnapshot>ov12a10_sunny_vince_snapshot</ISPSnapshot>
-      <ISPVideo>ov12a10_sunny_vince_snapshot</ISPVideo>
-      <CPPPreview>ov12a10_sunny_vince_cpp_preview</CPPPreview>
-      <CPPSnapshot>ov12a10_sunny_vince_cpp_snapshot_hht</CPPSnapshot>
-      <CPPVideo>ov12a10_sunny_vince_cpp_video</CPPVideo>
-      <CPPLiveshot>ov12a10_sunny_vince_cpp_liveshot</CPPLiveshot>
-      <A3Preview>ov12a10_sunny_vince_zsl_preview_dw9763</A3Preview>
-      <A3Video>ov12a10_sunny_vince_zsl_video_dw9763</A3Video>
-    </ChromatixName>
     <ChromatixName sensor_resolution_index="1" special_mode_mask="0">
       <ISPPreview>ov12a10_sunny_vince_snapshot</ISPPreview>
       <ISPSnapshot>ov12a10_sunny_vince_snapshot</ISPSnapshot>
       <ISPVideo>ov12a10_sunny_vince_snapshot</ISPVideo>
       <CPPPreview>ov12a10_sunny_vince_cpp_preview</CPPPreview>
       <CPPSnapshot>ov12a10_sunny_vince_cpp_snapshot</CPPSnapshot>
-      <CPPVideo>ov12a10_sunny_vince_cpp_video</CPPVideo>
-      <CPPLiveshot>ov12a10_sunny_vince_cpp_liveshot</CPPLiveshot>
-      <A3Preview>ov12a10_sunny_vince_zsl_preview_dw9763</A3Preview>
-      <A3Video>ov12a10_sunny_vince_zsl_video_dw9763</A3Video>
-    </ChromatixName>
-    <ChromatixName sensor_resolution_index="1" special_mode_mask="HHT MODE">
-      <ISPPreview>ov12a10_sunny_vince_snapshot</ISPPreview>
-      <ISPSnapshot>ov12a10_sunny_vince_snapshot</ISPSnapshot>
-      <ISPVideo>ov12a10_sunny_vince_snapshot</ISPVideo>
-      <CPPPreview>ov12a10_sunny_vince_cpp_preview</CPPPreview>
-      <CPPSnapshot>ov12a10_sunny_vince_cpp_snapshot_hht</CPPSnapshot>
       <CPPVideo>ov12a10_sunny_vince_cpp_video</CPPVideo>
       <CPPLiveshot>ov12a10_sunny_vince_cpp_liveshot</CPPLiveshot>
       <A3Preview>ov12a10_sunny_vince_zsl_preview_dw9763</A3Preview>
@@ -139,17 +117,6 @@ special_mode_mask values:
       <A3Preview>ov12a10_sunny_vince_zsl_preview_dw9763</A3Preview>
       <A3Video>ov12a10_sunny_vince_zsl_video_dw9763</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="2" special_mode_mask="HHT MODE">
-      <ISPPreview>ov12a10_sunny_vince_snapshot</ISPPreview>
-      <ISPSnapshot>ov12a10_sunny_vince_snapshot</ISPSnapshot>
-      <ISPVideo>ov12a10_sunny_vince_snapshot</ISPVideo>
-      <CPPPreview>ov12a10_sunny_vince_cpp_preview</CPPPreview>
-      <CPPSnapshot>ov12a10_sunny_vince_cpp_snapshot_hht</CPPSnapshot>
-      <CPPVideo>ov12a10_sunny_vince_cpp_video</CPPVideo>
-      <CPPLiveshot>ov12a10_sunny_vince_cpp_liveshot</CPPLiveshot>
-      <A3Preview>ov12a10_sunny_vince_zsl_preview_dw9763</A3Preview>
-      <A3Video>ov12a10_sunny_vince_zsl_video_dw9763</A3Video>
-    </ChromatixName>
     <ChromatixName sensor_resolution_index="3" special_mode_mask="0">
       <ISPPreview>ov12a10_sunny_vince_snapshot</ISPPreview>
       <ISPSnapshot>ov12a10_sunny_vince_snapshot</ISPSnapshot>
@@ -161,34 +128,12 @@ special_mode_mask values:
       <A3Preview>ov12a10_sunny_vince_hfr_60_dw9763</A3Preview>
       <A3Video>ov12a10_sunny_vince_hfr_60_dw9763</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="3" special_mode_mask="HHT MODE">
-      <ISPPreview>ov12a10_sunny_vince_snapshot</ISPPreview>
-      <ISPSnapshot>ov12a10_sunny_vince_snapshot</ISPSnapshot>
-      <ISPVideo>ov12a10_sunny_vince_snapshot</ISPVideo>
-      <CPPPreview>ov12a10_sunny_vince_cpp_preview</CPPPreview>
-      <CPPSnapshot>ov12a10_sunny_vince_cpp_snapshot_hht</CPPSnapshot>
-      <CPPVideo>ov12a10_sunny_vince_cpp_video</CPPVideo>
-      <CPPLiveshot>ov12a10_sunny_vince_cpp_liveshot</CPPLiveshot>
-      <A3Preview>ov12a10_sunny_vince_hfr_60_dw9763</A3Preview>
-      <A3Video>ov12a10_sunny_vince_hfr_60_dw9763</A3Video>
-    </ChromatixName>
     <ChromatixName sensor_resolution_index="4" special_mode_mask="0">
       <ISPPreview>ov12a10_sunny_vince_snapshot</ISPPreview>
       <ISPSnapshot>ov12a10_sunny_vince_snapshot</ISPSnapshot>
       <ISPVideo>ov12a10_sunny_vince_snapshot</ISPVideo>
       <CPPPreview>ov12a10_sunny_vince_cpp_preview</CPPPreview>
       <CPPSnapshot>ov12a10_sunny_vince_cpp_snapshot</CPPSnapshot>
-      <CPPVideo>ov12a10_sunny_vince_cpp_video</CPPVideo>
-      <CPPLiveshot>ov12a10_sunny_vince_cpp_liveshot</CPPLiveshot>
-      <A3Preview>ov12a10_sunny_vince_hfr_90_dw9763</A3Preview>
-      <A3Video>ov12a10_sunny_vince_hfr_90_dw9763</A3Video>
-    </ChromatixName>
-    <ChromatixName sensor_resolution_index="4" special_mode_mask="HHT MODE">
-      <ISPPreview>ov12a10_sunny_vince_snapshot</ISPPreview>
-      <ISPSnapshot>ov12a10_sunny_vince_snapshot</ISPSnapshot>
-      <ISPVideo>ov12a10_sunny_vince_snapshot</ISPVideo>
-      <CPPPreview>ov12a10_sunny_vince_cpp_preview</CPPPreview>
-      <CPPSnapshot>ov12a10_sunny_vince_cpp_snapshot_hht</CPPSnapshot>
       <CPPVideo>ov12a10_sunny_vince_cpp_video</CPPVideo>
       <CPPLiveshot>ov12a10_sunny_vince_cpp_liveshot</CPPLiveshot>
       <A3Preview>ov12a10_sunny_vince_hfr_90_dw9763</A3Preview>
