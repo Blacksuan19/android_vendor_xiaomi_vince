@@ -44,6 +44,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
     vendor/xiaomi/vince/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
     vendor/xiaomi/vince/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
+    vendor/xiaomi/vince/proprietary/lib/libfiltergenerator.so:system/lib/libfiltergenerator.so \
+    vendor/xiaomi/vince/proprietary/lib/libjni_hazebuster.so:system/lib/libjni_hazebuster.so \
+    vendor/xiaomi/vince/proprietary/lib/libjni_trueportrait.so:system/lib/libjni_trueportrait.so \
+    vendor/xiaomi/vince/proprietary/lib/libjni_makeupV2.so:system/lib/libjni_makeupV2.so \
+    vendor/xiaomi/vince/proprietary/lib/libjni_truescanner_v2.so:system/lib/libjni_truescanner_v2.so \
+    vendor/xiaomi/vince/proprietary/lib/libjni_optizoom.so:system/lib/libjni_optizoom.so \
+    vendor/xiaomi/vince/proprietary/lib/libjni_ubifocus.so:system/lib/libjni_ubifocus.so \
+    vendor/xiaomi/vince/proprietary/lib/libjni_dualcamera.so:system/lib/libjni_dualcamera.so \
+    vendor/xiaomi/vince/proprietary/lib/libjni_seestraight.so:system/lib/libjni_seestraight.so \
+    vendor/xiaomi/vince/proprietary/lib/libjni_filtergenerator.so:system/lib/libjni_filtergenerator.so \
+    vendor/xiaomi/vince/proprietary/lib/libjni_sharpshooter.so:system/lib/libjni_sharpshooter.so \
     vendor/xiaomi/vince/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/xiaomi/vince/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/xiaomi/vince/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
@@ -51,8 +62,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/xiaomi/vince/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/xiaomi/vince/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
+    vendor/xiaomi/vince/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
+    vendor/xiaomi/vince/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
+    vendor/xiaomi/vince/proprietary/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
     vendor/xiaomi/vince/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/xiaomi/vince/proprietary/lib/librcc.so:system/lib/librcc.so \
+    vendor/xiaomi/vince/proprietary/lib/libseestraight.so:system/lib/libseestraight.so \
+    vendor/xiaomi/vince/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
+    vendor/xiaomi/vince/proprietary/lib/libtruescanner.so:system/lib/libtruescanner.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsd_sdk_display.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
     vendor/xiaomi/vince/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
@@ -85,6 +102,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/xiaomi/vince/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/xiaomi/vince/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
+    vendor/xiaomi/vince/proprietary/lib64/libfiltergenerator.so:system/lib64/libfiltergenerator.so \
+    vendor/xiaomi/vince/proprietary/lib64/libjni_clearsight.so:system/lib64/libjni_clearsight.so \
+    vendor/xiaomi/vince/proprietary/lib64/libjni_hazebuster.so:system/lib64/libjni_hazebuster.so \
+    vendor/xiaomi/vince/proprietary/lib64/libjni_trueportrait.so:system/lib64/libjni_trueportrait.so \
+    vendor/xiaomi/vince/proprietary/lib64/libjni_makeupV2.so:system/lib64/libjni_makeupV2.so \
+    vendor/xiaomi/vince/proprietary/lib64/libjni_truescanner_v2.so:system/lib64/libjni_truescanner_v2.so \
+    vendor/xiaomi/vince/proprietary/lib64/libjni_optizoom.so:system/lib64/libjni_optizoom.so \
+    vendor/xiaomi/vince/proprietary/lib64/libjni_ubifocus.so:system/lib64/libjni_ubifocus.so \
+    vendor/xiaomi/vince/proprietary/lib64/libjni_dualcamera.so:system/lib64/libjni_dualcamera.so \
+    vendor/xiaomi/vince/proprietary/lib64/libjni_seestraight.so:system/lib64/libjni_seestraight.so \
+    vendor/xiaomi/vince/proprietary/lib64/libjni_filtergenerator.so:system/lib64/libjni_filtergenerator.so \
+    vendor/xiaomi/vince/proprietary/lib64/libjni_sharpshooter.so:system/lib64/libjni_sharpshooter.so \
     vendor/xiaomi/vince/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
     vendor/xiaomi/vince/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/xiaomi/vince/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
@@ -97,8 +126,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
     vendor/xiaomi/vince/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
     vendor/xiaomi/vince/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
+    vendor/xiaomi/vince/proprietary/lib64/libmorpho_memory_allocator.so:system/lib64/libmorpho_memory_allocator.so \
+    vendor/xiaomi/vince/proprietary/lib64/libmorpho_panorama.so:system/lib64/libmorpho_panorama.so \
+    vendor/xiaomi/vince/proprietary/lib64/libmorpho_panorama_gp.so:system/lib64/libmorpho_panorama_gp.so \
     vendor/xiaomi/vince/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
     vendor/xiaomi/vince/proprietary/lib64/librcc.so:system/lib64/librcc.so \
+    vendor/xiaomi/vince/proprietary/lib64/libseestraight.so:system/lib64/libseestraight.so \
+    vendor/xiaomi/vince/proprietary/lib64/libtrueportrait.so:system/lib64/libtrueportrait.so \
+    vendor/xiaomi/vince/proprietary/lib64/libtruescanner.so:system/lib64/libtruescanner.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsd_sdk_display.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
     vendor/xiaomi/vince/proprietary/lib64/libwfdavenhancements.so:system/lib64/libwfdavenhancements.so \
@@ -912,7 +947,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
-    vendor/xiaomi/vince/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.default.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \
