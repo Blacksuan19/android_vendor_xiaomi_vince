@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/xiaomi/vince/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/xiaomi/vince/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/xiaomi/vince/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/vince/proprietary/lib/libfiltergenerator.so:system/lib/libfiltergenerator.so \
     vendor/xiaomi/vince/proprietary/lib/libjni_hazebuster.so:system/lib/libjni_hazebuster.so \
     vendor/xiaomi/vince/proprietary/lib/libjni_trueportrait.so:system/lib/libjni_trueportrait.so \
@@ -58,6 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/xiaomi/vince/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/xiaomi/vince/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/xiaomi/vince/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/vince/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/vince/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/xiaomi/vince/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
@@ -182,9 +184,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/hw/activity_recognition.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.msm8953.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/hw/sound_trigger.primary.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.msm8953.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/hw/vulkan.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.msm8953.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0_vendor.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libI420colorconvert.so \
@@ -292,6 +296,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so \
     vendor/xiaomi/vince/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0_vendor.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
@@ -309,6 +314,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/hw/activity_recognition.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.msm8953.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/xiaomi/vince/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8953.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/hw/keystore.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8953.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@1.0-impl.so \
