@@ -599,6 +599,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.display.color@1.0 \
+	vendor.display.config@1.0 \
+	vendor.display.config@1.1 \
     libgpustats \
     libsdm-disp-vndapis \
     libthermalclient \
